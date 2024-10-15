@@ -1,0 +1,46 @@
+body {
+    background-color: #6e6e6e;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.header-image {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 30px;
+}
+
+.circle-container {
+    display: flex;
+    justify-content: space-evenly; /* 各画像の間隔を均等に配置 */
+    width: 100%;
+    max-width: 800px; /* 全体の幅を少し狭めて、より中央寄りに */
+    margin-top: 30px;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    border: 10px solid #393838; /* 淵を太くする */
+}
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
